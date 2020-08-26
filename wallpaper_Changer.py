@@ -4,7 +4,7 @@ import time
 
 file_path_number = 0
 server_http = "http://source.unsplash.com/random/1920x1080"
-
+#1920x1080 px.
 
 def server_connect(connect_http_addr):
 	global file_path_number
@@ -21,10 +21,8 @@ def server_connect(connect_http_addr):
 personal_ = input("Number> ")
 personal_path = input("Folder> ")
 while True:
-	if file_path_number != int(personal_): #istediğimiz miktarın bir fazlası.
+	if file_path_number != int(personal_):
 		server_connect(server_http)
 		
 	else:
 		break
-
-#D:\Projelerim\python3\Random_Download_Wallpaper\downloaders
